@@ -57,7 +57,7 @@ def main():
             }]
         })
         response = service_request.execute()
-        print (json.dumps(response, indent=4, sort_keys=True))	#Print it out and make it somewhat pretty.
+        print (json.dumps(response, indent=4, sort_keys=True))
 
 if __name__ == '__main__':
 
